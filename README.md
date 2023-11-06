@@ -11,5 +11,5 @@ So skidding it was. I'm planning on doing a rewrite soon though.
 At the moment this network is setup specifically for the Iris dataset. I'm planning on making it more generalized in the future.
 
 # Iris Dataset
-I do not have the rights to this dataset, but I do have it in here as well as my trained version of the network.
-I managed to get it to a 98% accuracy which is pretty good for a first try. I'm planning on making it better in the future.
+I have included the dataset as well as my trained version of the network.
+I managed to get it to a 96% accuracy which is pretty good for a first try. I'm planning on making it better in the future.

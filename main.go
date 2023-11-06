@@ -27,7 +27,7 @@ func main() {
 	}
 	var net *neural.Network
 	patterns := data.CSVRecordsToPatterns(records)
-	train, test := data.TrainAndTest(patterns, 149)
+	train, test := data.TrainAndTest(patterns, 25)
 	_, err = os.Stat("export.json")
 	if err != nil {
 		net = neural.NewNetwork([]int{4, 30, 15, 3}, .5, neural.Sigmoid, neural.SigmoidDerivative)
